@@ -1,0 +1,51 @@
+.form-container {
+  width: 80%;
+  margin: auto;
+
+  .login {
+    z-index: 11;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+
+    .content {
+      font-family: "Sacramento", cursive;
+      color: #fff;
+      font-weight: 500;
+
+      h3 {
+        font-weight: 500;
+        font-size: 2rem;
+      }
+      p {
+        font-family: "Montseratt", "Roboto";
+        font-size: 1.3rem;
+      }
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .button-yellow {
+        display: inline-block;
+        width: 100%;
+        padding: 0.65rem;
+      }
+    }
+
+    input {
+      width: 100%;
+      border: none;
+      outline: transparent;
+    }
+
+    @media screen and (max-width: 800px) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  
+}

@@ -1,0 +1,34 @@
+input.media,
+textarea.media {
+  border-radius: 5px;
+  background: #ffffff;
+  background: repeating-linear-gradient(
+1deg
+, #e0dfe2, transparent 104px);
+    color: #2e2d2d;
+    font-size: 0.95rem;
+}
+
+textarea.media {
+  resize: none;
+  overflow: auto;
+}
+
+.button-yellow.media {
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+  text-transform: unset;
+  font-size: 1.6rem;
+  padding: 10px 10px 8px 10px;
+  font-family: "Sacramento", cursive;
+}
+
+.ck.ck-editor__main>.ck-editor__editable{
+  padding-left:3rem;
+}
+
+.ck-editor__editable_inline {
+  min-height: 350px;
+}
+
